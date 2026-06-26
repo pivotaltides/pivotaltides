@@ -8,7 +8,7 @@ tags:
   - Relationships
   - Couples
 metaDescription: "How couples can turn recurring conflict into deeper understanding — couples therapy insights from Angelique Danza, LMFT, at Pivotal Tides."
-draft: false
+draft: true
 ---
 
 Most couples who come to therapy aren't fighting because something is broken.

@@ -18,7 +18,7 @@ permalink: /blog/
   <div class="container">
     {% if collections.posts and collections.posts.length %}
 
-    {% if collections.postTags and collections.postTags.length %}
+    {% if collections.postTags.length and collections.posts.length > 1 %}
     <div class="blog-filter" id="blogFilter">
       <button type="button" class="blog-filter-chip active" data-tag="*">All</button>
       {% for t in collections.postTags %}

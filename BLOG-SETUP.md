@@ -114,3 +114,54 @@ styles.css                  # blog styles appended (existing styles unchanged)
 ```
 
 To delete a post, remove its file in `blog/posts/` (or use the editor's delete).
+
+---
+
+## Two ways to run it
+
+| Command | Login? | Saves to | Use it for |
+|---|---|---|---|
+| `npm run dev` | none (local mode) | your local files | Everyday writing/testing on your machine |
+| `npm run preview:cloud` | **real TinaCloud login** | your GitHub repo | Seeing the exact live login + flow before/after deploy |
+| `npm run build` | (build only) | — | What Cloudflare runs to publish the site |
+
+**The editor screen and the site look identical in all three.** The only thing
+the cloud mode adds is the real login screen in front of `/admin`.
+
+## About the login (important)
+
+Angelique's login is **email + password**, handled by TinaCloud (free tier).
+She can optionally turn on 2-factor auth with an authenticator app (Google
+Authenticator, Authy, etc.). A "log in with Google" button for editors is **not**
+part of the free TinaCloud path — that requires self-hosting the CMS with a
+custom auth provider (a much bigger, paid-infrastructure setup). Email + password
+is the simple, free, and recommended option.
+
+## Test the REAL login locally (before pushing)
+
+1. Do the TinaCloud setup in section 2a (create project, get Client ID + Token).
+2. Copy `.env.example` to `.env` and paste your two values in.
+   *(Tip: set `TINA_BRANCH=tina-test` in `.env` so test posts don't touch `main`.)*
+3. Run:
+   ```bash
+   npm run preview:cloud
+   ```
+4. Open `http://localhost:8080/admin` — you'll get the real TinaCloud login,
+   exactly what Angelique will see. Logging in and saving will commit to GitHub
+   (to whichever branch `TINA_BRANCH` points at).
+
+## What's published at launch
+
+Only **"Welcome to the Pivotal Tides Journal"** is live. The other posts are kept
+in the repo but marked `draft: true`, so they're hidden from the site, the
+sitemap, and the tag filter until you set `draft: false`. The topic filter bar on
+`/blog/` is hidden while there's only one post and appears automatically once a
+second post is published.
+
+## Do tags/keywords auto-populate?
+
+Yes — automatically. Whatever tags you type on a **published** post instantly
+become: the chips on its card and post page, the topic filter on `/blog/`, the
+`/blog/tag/<topic>/` pages, and the SEO `keywords` meta tag. No separate step.
+Because only the intro post is live at launch, only its tags show; the bar fills
+out on its own as more posts go live.

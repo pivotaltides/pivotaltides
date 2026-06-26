@@ -9,7 +9,7 @@ tags:
   - Healing
   - Reflections
 metaDescription: "Grief therapy in Temecula and Murrieta — support for loss in all its forms, at your own pace. Angelique Danza, LMFT at Pivotal Tides serves the Inland Empire."
-draft: false
+draft: true
 ---
 
 At some point, most of us received the unspoken message that grief has an appropriate duration. That after a certain amount of time — weeks, months, maybe a year — we should be getting back to normal. That holding on too long is somehow indulgent, or a sign that something is wrong with us.

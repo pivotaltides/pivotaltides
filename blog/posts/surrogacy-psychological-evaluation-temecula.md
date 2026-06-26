@@ -9,7 +9,7 @@ tags:
   - Infertility
   - Intended Parent Support
 metaDescription: "Surrogacy psychological evaluations in Temecula for Intended Parents and Gestational Carriers. Angelique Danza, LMFT at Pivotal Tides serves fertility clinics and agencies across the Inland Empire."
-draft: false
+draft: true
 ---
 
 If you're pursuing surrogacy — as an Intended Parent or as a Gestational Carrier — you've likely encountered the requirement for a psychological evaluation. It's a standard part of the process, required by most reputable fertility clinics and surrogacy agencies before any medical protocols begin.

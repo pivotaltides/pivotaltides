@@ -9,7 +9,7 @@ tags:
   - Relationships
   - Healing
 metaDescription: "Therapy for narcissistic abuse recovery in Temecula and Murrieta — rebuilding self-trust and identity after emotional manipulation. Angelique Danza, LMFT at Pivotal Tides."
-draft: false
+draft: true
 ---
 
 One of the most disorienting things about recovering from a relationship with a narcissistic or emotionally abusive partner is the doubt. Not just doubt about the other person, but doubt about yourself — your memory, your judgment, your perception of reality.

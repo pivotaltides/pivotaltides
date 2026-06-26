@@ -9,7 +9,7 @@ tags:
   - Mental Health
   - Coping Skills
 metaDescription: "Therapy for anxiety and depression in Temecula and Murrieta — evidence-informed, personalized care for the Inland Empire. Angelique Danza, LMFT at Pivotal Tides."
-draft: false
+draft: true
 ---
 
 Anxiety and depression are, statistically, two of the most common mental health experiences people have. They're also two of the most commonly minimized — both by the people around us and by ourselves.

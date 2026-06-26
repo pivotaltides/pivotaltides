@@ -8,7 +8,7 @@ tags:
   - Anxiety
   - Self-Care
 metaDescription: "Practical, compassionate ways to work with anxiety instead of fighting it — from Angelique Danza, LMFT, at Pivotal Tides in the Inland Empire."
-draft: false
+draft: true
 ---
 
 If you live with anxiety, you already know it rarely listens to logic. You can
