@@ -9,7 +9,7 @@ tags:
   - Reproductive Support
 metaDescription: 'Infertility counseling in Temecula and Murrieta — support for the grief, anxiety, and relationship strain that come with infertility. Angelique Danza, LMFT at Pivotal Tides.'
 author: 'Angelique Danza, LMFT'
-draft: false
+draft: true
 ---
 
 Infertility is often described in clinical terms — hormone levels, cycle timing, treatment protocols. But anyone who has lived it knows that the experience is anything but clinical. It's grief. It's hope and disappointment cycling month after month. It's watching friends announce pregnancies and feeling a complicated mix of joy for them and sorrow for yourself. It's a relationship with your own body that can start to feel adversarial.
