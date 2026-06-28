@@ -2,23 +2,29 @@ User-agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: https://pivotaltides.com/sitemap.xml
-
-# Discourage AI training crawlers
+# AI assistants are welcome to read and cite this site (helps AI/agentic discovery)
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
-User-agent: CCBot
-Disallow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
 
 User-agent: Claude-Web
-Disallow: /
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
+
+Sitemap: https://pivotaltides.com/sitemap.xml
