@@ -1,14 +1,14 @@
 ---
-title: "The Emotional Weight of Infertility: Why Counseling Can Help"
-date: 2026-05-15
-image: "/Assets/blog/coral.jpg"
-excerpt: "Infertility is a medical diagnosis that carries an enormous emotional burden — grief, isolation, relationship strain, and a loss of the future you had planned on. You don't have to carry it alone."
-author: "Angelique Danza, LMFT"
+title: 'The Emotional Weight of Infertility: Why Counseling Can Help'
+date: 2026-05-15T00:00:00.000Z
+image: /Assets/blog/coral.jpg
+excerpt: 'Infertility is a medical diagnosis that carries an enormous emotional burden — grief, isolation, relationship strain, and a loss of the future you had planned on. You don''t have to carry it alone.'
 tags:
   - Infertility
   - Grief & Loss
   - Reproductive Support
-metaDescription: "Infertility counseling in Temecula and Murrieta — support for the grief, anxiety, and relationship strain that come with infertility. Angelique Danza, LMFT at Pivotal Tides."
+metaDescription: 'Infertility counseling in Temecula and Murrieta — support for the grief, anxiety, and relationship strain that come with infertility. Angelique Danza, LMFT at Pivotal Tides.'
+author: 'Angelique Danza, LMFT'
 draft: true
 ---
 
@@ -22,12 +22,12 @@ Unlike the grief that follows a concrete loss, infertility is often described as
 
 Common emotional experiences during infertility include:
 
-- Anxiety and hypervigilance around cycles, appointments, and test results
-- Depression, especially after failed treatments or pregnancy losses
-- Isolation — feeling like no one around you really understands what this is like
-- Relationship strain with a partner, particularly when grief is expressed differently by each person
-- Resentment or shame that can feel impossible to say out loud
-- Difficulty being present in other areas of life because this is consuming everything
+* Anxiety and hypervigilance around cycles, appointments, and test results
+* Depression, especially after failed treatments or pregnancy losses
+* Isolation — feeling like no one around you really understands what this is like
+* Relationship strain with a partner, particularly when grief is expressed differently by each person
+* Resentment or shame that can feel impossible to say out loud
+* Difficulty being present in other areas of life because this is consuming everything
 
 None of these responses are weakness. They're the natural result of an experience that is genuinely hard — medically, emotionally, and relationally.
 
