@@ -7,7 +7,7 @@ tags:
   - Grief
   - Loss
   - Life-transitions
-author: 'Angelique Danza, M.S., Licensed Marriage and Family Therapist'
+author: 'Angelique Danza, Licensed Marriage and Family Therapist'
 ---
 
 **Grief Doesn’t Follow a Timeline: Understanding the Many Faces of Grief**
