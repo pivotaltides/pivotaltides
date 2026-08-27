@@ -105,7 +105,7 @@ Kessler's concept of meaning is not about finding a reason for the loss or convi
 For one person, meaning might mean honoring the life of someone who died by continuing a tradition they loved. For another, it might mean becoming more intentional about relationships and recognizing that time with loved ones is precious. Someone who has experienced betrayal may discover a deeper understanding of their boundaries, values, and needs. Someone grieving the loss of a career may eventually discover a different path that feels more aligned with who they are now. Someone experiencing an empty nest may begin rediscovering parts of themselves that had been placed on hold while raising their children.
 
 ```
-  S***omeone grieving a version of themselves may begin asking:***
+  Someone grieving a version of themselves may begin asking:***
 ```
 
 "Who am I now, and who do I want to become?"
