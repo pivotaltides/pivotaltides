@@ -2,7 +2,7 @@
 title: 'Grief Doesn’t Follow a Timeline: Understanding the Many Faces of Grief'
 date: 2026-08-28T00:00:00.000Z
 image: /Assets/blog/coral.jpg
-excerpt: 'Grief doesn’t follow a timeline. Explore the stages and processes of grief, complex and prolonged grief, and why everyone’s experience is different.'
+excerpt: 'Grief doesn’t follow a timeline. Explore the stages and processes of grief, and why everyone’s experience is different.'
 tags:
   - 'Grief, Loss, life-transitions'
 author: 'Angelique Danza, M.S., Licensed Marriage and Family Therapist'
