@@ -68,7 +68,7 @@ The Different Processes of Grief
 
 For many years, grief was commonly presented as a series of stages. The idea of moving through stages can be helpful for some people, but it can also create an unrealistic expectation that grief should happen in a predictable order. In reality, grief is often much more fluid.
 
-The Five Stages of Grief
+The Five Stages of Grief:
 
 The Kübler-Ross model describes five experiences that can occur in grief:
 
@@ -108,9 +108,7 @@ We are able to feel and process two very different emotions at the same time. We
 
 We can build a beautiful life after loss while still carrying the person, relationship, dream, or version of ourselves that we lost.
 
-Meaning Is Not a Deadline - Just as grief does not have a predictable timeline, neither does meaning.
-
-Over time, meaning may become less about why the loss happened and more about how you choose to live in its presence. Perhaps that is one of the most powerful parts of the grieving process: realizing that although we cannot always choose what happens to us, we may eventually have some choice in what we do with the experience.
+Just as grief does not have a predictable timeline, neither does meaning. Over time, meaning may become less about why the loss happened and more about how you choose to live in its presence. Perhaps that is one of the most powerful parts of the grieving process: realizing that although we cannot always choose what happens to us, we may eventually have some choice in what we do with the experience.
 
 YOUR GRIEF IS YOUR OWN!
 
