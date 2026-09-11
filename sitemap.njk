@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{%- set staticPages = [["/", "1.0", "monthly"], ["/services.html", "0.9", "monthly"], ["/approach.html", "0.8", "monthly"], ["/rates.html", "0.9", "monthly"], ["/contact.html", "0.9", "monthly"], ["/support-groups.html", "0.8", "monthly"], ["/privacy-policy.html", "0.5", "yearly"], ["/blog/", "0.8", "weekly"]] %}
+{%- set staticPages = [["/", "1.0", "monthly"], ["/services", "0.9", "monthly"], ["/approach", "0.8", "monthly"], ["/rates", "0.9", "monthly"], ["/contact", "0.9", "monthly"], ["/support-groups", "0.8", "monthly"], ["/privacy-policy", "0.5", "yearly"], ["/blog/", "0.8", "weekly"]] %}
 {%- for p in staticPages %}
   <url>
     <loc>{{ site.url }}{{ p[0] }}</loc>
