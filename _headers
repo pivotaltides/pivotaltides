@@ -1,0 +1,5 @@
+/_site/*
+  X-Robots-Tag: noindex, nofollow
+
+/emailjs-template.html
+  X-Robots-Tag: noindex, nofollow

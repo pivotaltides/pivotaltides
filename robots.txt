@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 Disallow: /private/
+Disallow: /_site/
+Disallow: /emailjs-template.html
 
 # AI assistants are welcome to read and cite this site (helps AI/agentic discovery)
 User-agent: GPTBot
