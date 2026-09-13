@@ -9,5 +9,8 @@
 /intended-parent         /services.html          301
 /surrogate-assessment    /services.html          301
 
-# www → non-www (Cloudflare handles this at DNS level, but belt-and-suspenders)
-https://www.pivotaltides.com/*  https://pivotaltides.com/:splat  301
+# www → non-www. This rule was here but without the trailing "!", so it never
+# fired: www.pivotaltides.com was serving the entire site with a 200 alongside
+# the non-www copy. Canonicals all say non-www. The "!" forces the redirect to
+# win over a matching static file, which is what makes it work on Pages.
+https://www.pivotaltides.com/*  https://pivotaltides.com/:splat  301!
