@@ -5,12 +5,12 @@
 ## Pages
 
 - [Home](https://pivotaltides.com/): About the practice and Angelique Danza, LMFT.
-- [Services](https://pivotaltides.com/services.html): Individual, couples, and group therapy, plus reproductive support.
-- [Approach](https://pivotaltides.com/approach.html): The practice's therapeutic philosophy and modalities.
-- [Rates & FAQ](https://pivotaltides.com/rates.html): Fees, insurance, and common questions.
-- [Contact](https://pivotaltides.com/contact.html): Phone, location, and free 15-minute consultation.
-- [Support Groups](https://pivotaltides.com/support-groups.html): Current and upcoming group offerings.
-- [Privacy Policy](https://pivotaltides.com/privacy-policy.html): How client information is handled.
+- [Services](https://pivotaltides.com/services): Individual, couples, and group therapy, plus reproductive support.
+- [Approach](https://pivotaltides.com/approach): The practice's therapeutic philosophy and modalities.
+- [Rates & FAQ](https://pivotaltides.com/rates): Fees, insurance, and common questions.
+- [Contact](https://pivotaltides.com/contact): Phone, location, and free 15-minute consultation.
+- [Support Groups](https://pivotaltides.com/support-groups): Current and upcoming group offerings.
+- [Privacy Policy](https://pivotaltides.com/privacy-policy): How client information is handled.
 
 ## Journal
 
