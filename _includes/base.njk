@@ -4,7 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-{% set metaTitle = seoTitle or (title + " · Pivotal Tides") %}
+{# Brand suffix only while the title still fits in a search result (~60 chars) #}
+{% set shortTitle = title.split(":")[0] if ((title | length) > 45 and ":" in title) else title %}
+{% set metaTitle = seoTitle or ((shortTitle + " · Pivotal Tides") if (shortTitle | length) <= 45 else shortTitle) %}
 {% set metaDesc = metaDescription or description or excerpt or site.description %}
 {% set metaImage = (image | assetUrl) or site.defaultImage %}
 {% set absImage = metaImage if metaImage.startsWith("http") else (site.url + metaImage) %}
@@ -14,9 +16,9 @@
 <meta name="description" content="{{ metaDesc }}">
 <meta name="author" content="{{ author or site.author }}">
 {% if tags and tags.length %}<meta name="keywords" content="{{ tags | join(", ") }}">{% endif %}
-<meta name="robots" content="index, follow">
+<meta name="robots" content="{{ 'noindex, follow' if noindex else 'index, follow' }}">
 <meta name="theme-color" content="#f3f0ea">
-<link rel="canonical" href="{{ canonical }}">
+{% if not noindex %}<link rel="canonical" href="{{ canonical }}">{% endif %}
 
 <meta property="og:title" content="{{ metaTitle }}">
 <meta property="og:description" content="{{ metaDesc }}">
@@ -50,9 +52,32 @@
   "publisher": {
     "@type": "Organization",
     "name": "Pivotal Tides",
-    "logo": { "@type": "ImageObject", "url": "{{ site.url }}/Assets/Circular Logo.png" }
+    "logo": { "@type": "ImageObject", "url": "{{ site.url }}/Assets/Circular%20Logo.png" }
   }{% if tags and tags.length %},
   "keywords": {{ (tags | join(", ")) | dump | safe }}{% endif %}
+}
+</script>
+{% elif page.url == "/blog/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Blog",
+      "name": "Pivotal Tides Journal",
+      "description": {{ metaDesc | dump | safe }},
+      "url": {{ canonical | dump | safe }},
+      "publisher": { "@type": "Organization", "name": "Pivotal Tides", "url": "{{ site.url }}/" }{% if collections.posts and collections.posts.length %},
+      "blogPost": [{% for post in collections.posts %}{ "@type": "BlogPosting", "headline": {{ post.data.title | dump | safe }}, "url": "{{ site.url }}{{ post.url }}", "datePublished": "{{ post.date | isoDate }}" }{% if not loop.last %}, {% endif %}{% endfor %}]{% endif %}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "Journal", "item": {{ canonical | dump | safe }} }
+      ]
+    }
+  ]
 }
 </script>
 {% endif %}
@@ -71,29 +96,29 @@
 
 <header>
   <div class="container nav">
-    <a href="{{ basePath }}/index.html" class="logo">
+    <a href="{{ basePath }}/" class="logo">
       <span class="logo-mark">PIVOTAL TIDES</span>
       <span class="logo-tag">Therapy for Growth &amp; Healing</span>
     </a>
     <div class="nav-links">
-      <a href="{{ basePath }}/index.html">About</a>
-      <a href="{{ basePath }}/services.html">Services</a>
-      <a href="{{ basePath }}/approach.html">Approach</a>
-      <a href="{{ basePath }}/rates.html">Rates &amp; FAQ</a>
+      <a href="{{ basePath }}/">About</a>
+      <a href="{{ basePath }}/services">Services</a>
+      <a href="{{ basePath }}/approach">Approach</a>
+      <a href="{{ basePath }}/rates">Rates &amp; FAQ</a>
       <a href="{{ basePath }}/blog/">Journal</a>
-      <a href="{{ basePath }}/contact.html">Contact</a>
+      <a href="{{ basePath }}/contact">Contact</a>
     </div>
     <button class="hamburger-btn" id="hamburger" aria-label="Menu" aria-controls="mobileNav">
       <span></span><span></span><span></span>
     </button>
   </div>
   <nav class="mobile-nav-menu" id="mobileNav" aria-label="Mobile">
-    <a href="{{ basePath }}/index.html">About</a>
-    <a href="{{ basePath }}/services.html">Services</a>
-    <a href="{{ basePath }}/approach.html">Approach</a>
-    <a href="{{ basePath }}/rates.html">Rates &amp; FAQ</a>
+    <a href="{{ basePath }}/">About</a>
+    <a href="{{ basePath }}/services">Services</a>
+    <a href="{{ basePath }}/approach">Approach</a>
+    <a href="{{ basePath }}/rates">Rates &amp; FAQ</a>
     <a href="{{ basePath }}/blog/">Journal</a>
-    <a href="{{ basePath }}/contact.html">Contact</a>
+    <a href="{{ basePath }}/contact">Contact</a>
   </nav>
 </header>
 
@@ -111,20 +136,20 @@
     <div>
       <div class="footer-title">Pages</div>
       <div class="footer-links">
-        <a href="{{ basePath }}/index.html">Home</a>
-        <a href="{{ basePath }}/services.html">Services</a>
-        <a href="{{ basePath }}/approach.html">Approach</a>
-        <a href="{{ basePath }}/rates.html">Rates &amp; FAQ</a>
+        <a href="{{ basePath }}/">Home</a>
+        <a href="{{ basePath }}/services">Services</a>
+        <a href="{{ basePath }}/approach">Approach</a>
+        <a href="{{ basePath }}/rates">Rates &amp; FAQ</a>
         <a href="{{ basePath }}/blog/">Journal</a>
-        <a href="{{ basePath }}/contact.html">Contact</a>
+        <a href="{{ basePath }}/contact">Contact</a>
       </div>
     </div>
     <div>
       <div class="footer-title">Practice</div>
       <div class="footer-links">
-        <a href="{{ basePath }}/rates.html">Fees &amp; Insurance</a>
-        <a href="{{ basePath }}/support-groups.html">Support Groups</a>
-        <a href="{{ basePath }}/privacy-policy.html">Privacy Policy</a>
+        <a href="{{ basePath }}/rates">Fees &amp; Insurance</a>
+        <a href="{{ basePath }}/support-groups">Support Groups</a>
+        <a href="{{ basePath }}/privacy-policy">Privacy Policy</a>
       </div>
     </div>
   </div>
