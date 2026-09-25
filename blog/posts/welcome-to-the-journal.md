@@ -7,7 +7,7 @@ author: "Angelique Danza, LMFT"
 tags:
   - Reflections
   - Getting Started
-metaDescription: "Welcome to the Pivotal Tides Journal — reflections on growth, healing, and relationships from Angelique Danza, LMFT, serving Murrieta, Temecula, and the Inland Empire."
+metaDescription: "Welcome to the Pivotal Tides Journal: reflections on growth, healing, and relationships from Angelique Danza, LMFT, in Murrieta and Temecula."
 draft: false
 ---
 
